@@ -38,8 +38,6 @@ public class JoKenPow {
 		
 		// entrada dos elementos para escolha da Maquina
 		System.out.println("______________________________");
-		int Maquina;
-		Maquina = (int) (Math.random() * 3 + 1);
 		int maquina;
 		maquina = (int) (Math.random() * 3 + 1);
 		if (maquina == 1) {
