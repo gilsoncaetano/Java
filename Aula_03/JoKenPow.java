@@ -1,4 +1,4 @@
-package Exercícios;
+package ExercÃ­cios;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class JoKenPow {
 
 	public static void main(String[] args) {
-		// Elementos que serão apresentado
+		// Elementos que serÃ£o apresentado
 		int jogador;
 		Scanner jogo = new Scanner(System.in);
 		System.out.println("");
@@ -32,7 +32,7 @@ public class JoKenPow {
 		} else if (jogador == 3) {
 			System.out.println("Jogador escolhel PEDRA");
 		} else {
-			System.out.println("VOCÊ IDGITOU A OPÇÂO INVALIDA ");
+			System.out.println("VOCÃŠ IDGITOU A OPÃ‡Ã‚O INVALIDA ");
 		}
 		jogo.close();
 		
@@ -40,19 +40,21 @@ public class JoKenPow {
 		System.out.println("______________________________");
 		int Maquina;
 		Maquina = (int) (Math.random() * 3 + 1);
-		if (Maquina == 1) {
+		int maquina;
+		maquina = (int) (Math.random() * 3 + 1);
+		if (maquina == 1) {
 			System.out.println("Maquina escolhel PAPEL");			
-		} else if (Maquina == 2) {
+		} else if (maquina == 2) {
 			System.out.println("Maquina escolhel TESOURA");
-		} else if (Maquina == 3) {
+		} else if (maquina == 3) {
 			System.out.println("Maquina escolhel PEDRA");
 		} else {
-			System.out.println("VOCÊ IDGITOU A OPÇÂO INVALIDA ");
+			System.out.println("VOCÃŠ IDGITOU A OPÃ‡Ã‚O INVALIDA ");
 		}
 		System.out.println("______________________________");
 		// Saida dos resultados do jogo final
-		if (Maquina != jogador) {
-		 if ((Maquina==1 && jogador==3)||(Maquina == 2 && jogador==1)||(Maquina==3 && jogador==2)) {
+		if (maquina == jogador) {
+		 if ((maquina==1 && jogador==3)||(maquina == 2 && jogador==1)||(maquina==3 && jogador==2)) {
 			System.out.println("MAQUINA VENCEU.");
 			
 			} else 
