@@ -1,6 +1,6 @@
 
 
-package Exercícios;
+package ExercÃ­cios;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
@@ -14,16 +14,16 @@ public class IMC {
 
 
 	public static void main(String[] args) {
-		
+		int idade;
 		double idade, peso, altura, imc;
 		Scanner leitor = new Scanner(System.in);
 		DecimalFormat formatador = new DecimalFormat("0.00");
-		System.out.println("Cauculo do IMC do paciente");
+		System.out.println("CÃ¡lculo do IMC do paciente");
 		
 		// Entrada 
 		
 		System.out.print("Digite a sua Idade: ");
-		idade = leitor.nextDouble();		
+		idade = (int) leitor.nextDouble();		
 		System.out.print("Digite o seu Peso: ");
 		peso = leitor.nextDouble();
 		System.out.print("Digite a sua Altura: ");
@@ -33,7 +33,7 @@ public class IMC {
 		imc = peso / (altura * altura);
 		//Saida
 		System.out.println("___________________________________");
-		System.out.println("Seu IMC é: " + formatador.format(imc));	
+		System.out.println("Seu IMC Ã©: " + formatador.format(imc));	
 		System.out.println("___________________________________");
 		System.out.println("Idade: " + formatador.format(idade));
 		System.out.println("___________________________________");
@@ -48,16 +48,16 @@ public class IMC {
 			System.out.println("Seu Peso Esta Normal.");
 			
 		} else if (imc >= 25 && imc <= 29.9) {
-			System.out.println("Você esta acima do Pesso.");
+			System.out.println("VocÃª esta acima do Pesso.");
 			
 		} else if (imc >= 30 && imc <= 34.9) {
-			System.out.println("Você Esta Obesidade grau 1.");
+			System.out.println("VocÃª Esta Obesidade grau 1.");
 			
 		} else if (imc >= 35 && imc <= 39.9) {
-			System.out.println("Você Esta Obesidade grau 2.");
+			System.out.println("VocÃª Esta Obesidade grau 2.");
 			
 		} else {
-			System.out.println("Você Esta Obesidade grau 3");
+			System.out.println("VocÃª Esta Obesidade grau 3");
 			leitor.close();
 			
 		}
