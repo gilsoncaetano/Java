@@ -13,9 +13,3 @@ Aluno Gilso Caetano.
 
 > Repositório alterado
 > Com dados novo para o meu projeto
-
----
-
-    git commit-m "Comandos"
-
----
