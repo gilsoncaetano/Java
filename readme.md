@@ -12,4 +12,5 @@ Aluno Gilso Caetano.
 ![Logos  eclipse e Java](/telas/eclijava.jpg)
 
 > Repositório alterado
-> Com dados novo para o meu projeto
+> com atividade nova.
+
