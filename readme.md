@@ -1,4 +1,4 @@
-# Atividade com Java com Professor José de assis.
+# Atividade Eclipse e Java com Professor José de assis.
 
 Estas atividade e feita no eclipse repositório de todas as aulas com java as informações
 desse repositorio são Avaliada pelo Profesor José de Assis.
